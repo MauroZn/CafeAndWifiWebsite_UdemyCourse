@@ -1,0 +1,28 @@
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #map-placeholder {
+        padding: 20px;
+        background-color: #e9ecef;
+        text-align: center;
+        border-radius: 10px;
+        height: 100%;
+    }
+
+    html, body, .container-fluid, .row, .col-md-6.d-none.d-md-block {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #map {
+        height: 100%;
+        min-height: 500px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
